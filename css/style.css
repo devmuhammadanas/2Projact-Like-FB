@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* header Styling */
+
+.header{
+    height: 80px;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+/* .sactions{
+    height: 80px;
+    width: 90%;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+} */
+.saction a{
+    text-decoration: none;
+    padding: 4px;
+    color: white;
+
+}
+
+a:hover{
+    background-color: white;
+    color: aqua;
+    border-radius: 10px;
+}
+.botton{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border: 1px;
+    border-radius: 7px;
+    text-align: left;
+}
+.saction4,.gg{
+    height: 30px;
+    width: 150px;
+    border: 1px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.saction4{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.search-bar{
+    width: 170px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 70%;
+    text-decoration: none;
+    border: 1px;
+    padding-left: 10px;
+}
+
+.navigation{
+    height: 40px;
+    background-color: cadetblue;
+    color: aliceblue;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Main content */
+
+main{
+    height: calc(100vh - 160px);
+}
+
+.main-box{
+    height: 100%;
+    display: flex;
+
+    }
+
+.left-box{
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    overflow: scroll;
+    
+}
+
+.center-box{
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    overflow: scroll;
+}
+
+.right-box{
+    border: 1px solid black;
+    height: 100%;
+    width: 20%;
+}
+
+
+
+.navigation a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.box{
+    margin-top: 20px;
+}
+.prefile-image{
+    display: flex;
+    align-items: center;
+}
+.prefile-image, p{
+    margin-left: 20px;
+}
+.post{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+/* Footer Styling */
+
+.footer-text{
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
